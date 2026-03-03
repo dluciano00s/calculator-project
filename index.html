@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <link rel="styles" href="styles.css">
 </head>
 <body>
+    <div id="Calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="appendDisplay('+')" class="operatorBtn">+</button>
+            <button onclick="appendDisplay('7')">7</button>
+            <button onclick="appendDisplay('8')">+</button>
+            <button onclick="appendDisplay('9')">+</button>
+            <button onclick="appendDisplay('-')" class="operatorBtn">+</button>
+            <button onclick="appendDisplay('4')">+</button>
+            <button onclick="appendDisplay('5')">+</button>
+            <button onclick="appendDisplay('6')">+</button>
+            <button onclick="appendDisplay('*')" class="operatorBtn">+</button>
+            <button onclick="appendDisplay('1')">+</button>
+            <button onclick="appendDisplay('2')">+</button>
+            <button onclick="appendDisplay('3')">+</button>
+            <button onclick="appendDisplay('/')" class="operatorBtn">+</button>
+            <button onclick="appendDisplay('0')">+</button>
+            <button onclick="appendDisplay('.')">+</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()" class="operatorBtn">C</button>
+        </div>
+    </div>
+
+
     <script src="script.js"></script>
     
 </body>
