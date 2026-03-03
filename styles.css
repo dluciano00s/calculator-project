@@ -17,10 +17,10 @@ body{
     overflow: hidden;
 }
 #display{
-    width: 100px;
+    width: 500px;
     padding: 20px;
     font-size: 5rem;
-    text-align: left;
+    text-align: center;
     border: none;
     background-color: hsl(0, 0%, 20%);
 }
